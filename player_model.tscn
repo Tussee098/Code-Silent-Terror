@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj72gljypq1df"]
+
+[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/rp_nathan_animated_003_walking.fbx" id="1_vtego"]
+
+[node name="playerModel" instance=ExtResource("1_vtego")]
+
+[node name="Skeleton3D" parent="RootNode/rp_nathan_animated_003_walking/rp_nathan_animated_003_walking_CTRL" index="0"]
+bones/1/rotation = Quaternion(0.5, 0.5, -0.5, -0.5)
+bones/5/rotation = Quaternion(3.40243e-17, 7.85988e-09, -0.0638036, 0.997962)
+bones/6/rotation = Quaternion(-2.36615e-25, 3.6931e-17, 0.0638036, 0.997962)
+bones/16/rotation = Quaternion(1.19239e-23, 3.35613e-08, -0.615414, 0.788204)
+bones/18/rotation = Quaternion(1.23694e-24, 2.01265e-08, -0.624079, 0.781361)
+bones/25/rotation = Quaternion(-0.707107, 3.4542e-16, -4.18357e-31, 0.707107)
+bones/26/rotation = Quaternion(0.689517, 0.156736, -0.0184666, 0.706866)
+bones/32/rotation = Quaternion(0, 0, 3.77875e-31, 1)
+bones/38/rotation = Quaternion(0, 0, 3.77875e-31, 1)
+bones/48/rotation = Quaternion(0.707107, -4.32978e-17, -0.707107, -4.32978e-17)
+bones/51/rotation = Quaternion(-0.707107, -3.14019e-16, -4.01944e-15, 0.707107)
+bones/52/rotation = Quaternion(0.689517, 0.156736, -0.0184666, 0.706866)
+bones/74/rotation = Quaternion(-3.98047e-15, 0.000459228, 0.000214917, 1)
+bones/75/rotation = Quaternion(-1.36264e-05, 0.00064325, -0.0217621, 0.999763)
+bones/82/rotation = Quaternion(-5.98951e-06, 0.000281008, -0.0217393, 0.999764)
+bones/83/rotation = Quaternion(-1.86982e-14, 0.000178198, 0.0215244, 0.999768)
+bones/84/rotation = Quaternion(-0.000417208, -0.000427162, -0.715393, 0.698722)
+
+[node name="AnimationPlayer" parent="." index="1"]
+root_motion_track = NodePath("RootNode/rp_nathan_animated_003_walking/rp_nathan_animated_003_walking_CTRL/Skeleton3D:rp_nathan_animated_003_walking_root")

@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bivstasqmwnw4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t5mtd"]
+size = Vector3(100, 1, 100)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hwdks"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ku6gn"]
+material = SubResource("ShaderMaterial_hwdks")
+size = Vector3(100, 1, 100)
+
+[node name="Floor" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.43101, 0)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0182548, 0, 0)
+shape = SubResource("BoxShape3D_t5mtd")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_ku6gn")
