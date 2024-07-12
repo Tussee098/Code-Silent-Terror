@@ -16,8 +16,10 @@ func add_player(id):
 	add_child(player)
 
 
-
+#Joinar den skrivna IpAdressen
+# MÅste testas
 func _on_join_button_pressed():
-	peer.create_client("localhost", 135)
+	var ip_adress = $IpAdress.text
+	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
 	
