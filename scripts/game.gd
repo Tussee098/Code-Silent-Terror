@@ -2,7 +2,9 @@ extends Node3D
 
 var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
-var players : Array
+
+#Optimized? Sure, probably not
+@export var players : Array
 
 func _host_button_pressed():
 	_toggle_UI(false)
@@ -20,12 +22,10 @@ func _join_button_pressed(ip_adress):
 	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
 
-
 func add_player(id):
 	var player = player_scene.instantiate()
 	player.name = str(id)
 	add_child(player)
-	players.push_back(player)
 
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
