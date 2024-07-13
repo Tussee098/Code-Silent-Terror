@@ -3,7 +3,7 @@ extends Node3D
 var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
 
-var players : Array
+@export var players : Array
 
 func _host_button_pressed():
 	_toggle_UI(false)
@@ -23,7 +23,9 @@ func _join_button_pressed(ip_adress):
 	add_player(multiplayer.get_unique_id())
 	
 
+@rpc("any_peer", "call_local", "reliable")
 func add_player(id):
+	print("fdsdfdsfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf")
 	var player = player_scene.instantiate()
 	player.name = str(id)
 	add_child(player)
@@ -39,7 +41,7 @@ func _toggle_UI(value : bool):
 	$ConnectionUI.set_visible(value)
 	
 
-func _process(delta):
+func _process(_delta):
 	for player in players:
 		if player.is_walking:
 			player._walk_animation()
