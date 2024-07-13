@@ -13,8 +13,7 @@ func _host_button_pressed():
 
 
 # MÅste testas
-func _join_button_pressed():
-	var ip_adress = $IpAdress.text
+func _join_button_pressed(ip_adress):
 	peer.close()
 	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
