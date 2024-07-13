@@ -1,18 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://oo1bxsvf5ttb"]
+[gd_scene load_steps=5 format=3 uid="uid://oo1bxsvf5ttb"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_l1oj7"]
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
 [ext_resource type="PackedScene" uid="uid://bivstasqmwnw4" path="res://scenes/floor.tscn" id="2_bwrv4"]
+[ext_resource type="PackedScene" uid="uid://bpfuc6rfjv51d" path="res://assets/placeHolders/greenBox.blend" id="4_w8bj6"]
 
 [node name="Game" type="Node3D"]
 script = ExtResource("1_l1oj7")
 player_scene = ExtResource("2_3x03m")
 
 [node name="Floor" parent="." instance=ExtResource("2_bwrv4")]
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -0.0316376, 0.999499, 0, -0.999499, -0.0316376, 0, 5.59936, 0)
-sky_mode = 2
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.18671, 0)
 
 [node name="HostButton" type="Button" parent="."]
 offset_right = 123.0
@@ -36,6 +34,9 @@ offset_top = 4.0
 offset_right = 649.0
 offset_bottom = 46.0
 placeholder_text = "Ip Adress"
+
+[node name="greenBox" parent="." instance=ExtResource("4_w8bj6")]
+transform = Transform3D(0.899283, 0, -0.437367, 0, 1, 0, 0.437367, 0, 0.899283, -8.75089, 0.0994637, -15.9438)
 
 [connection signal="pressed" from="HostButton" to="." method="_on_host_button_pressed"]
 [connection signal="pressed" from="JoinButton" to="." method="_on_join_button_pressed"]
