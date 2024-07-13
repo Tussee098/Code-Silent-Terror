@@ -37,7 +37,7 @@ func _physics_process(delta):
 
 		# Get the input direction and handle the movement/deceleration.
 		# As good practice, you should replace UI actions with custom gameplay actions.
-		var input_dir = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+		var input_dir = Input.get_vector("left", "right", "up", "down")
 		
 		if input_dir == Vector2.ZERO:
 			animation_player.stop()
