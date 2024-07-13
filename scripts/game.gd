@@ -23,3 +23,6 @@ func _on_join_button_pressed():
 	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
 	
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().quit()
