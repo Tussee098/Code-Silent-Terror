@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://l1ptjx0ww0id"]
+
+[ext_resource type="PackedScene" uid="uid://sikfauiuiisj" path="res://assets/house/houseCollision.blend" id="1_caokm"]
+
+[node name="houseCollision" instance=ExtResource("1_caokm")]
+
+[node name="Cube" parent="." index="0"]
+transform = Transform3D(0.035353, 0, -0.999375, 0, 1, 0, 0.999375, 0, 0.035353, 0, 0, 0)
+
+[node name="garden_gate" parent="." index="567"]
+transform = Transform3D(-1, 0, 0, 0, 1, -1.19081e-07, 0, 1.50996e-07, 0.78864, 4.92431, 1.73049, -13.7484)
+
+[node name="Door" parent="." index="617"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.49275, 1.70141, -1.66157)
+
+[node name="Door_001" parent="." index="618"]
+transform = Transform3D(0.0490416, 0, 0.998797, 0, 1, 0, -0.998797, 0, 0.0490416, 5.86298, 4.99091, -4.65148)
+
+[node name="Door_002" parent="." index="627"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.45266, 4.99091, -8.69556)
+
+[node name="Door_004" parent="." index="629"]
+transform = Transform3D(0.999489, 0, 0.0319514, 0, 1, 0, -0.0319514, 0, 0.999489, 2.90509, 5.0018, -8.52556)
+
+[node name="Door_005" parent="." index="630"]
+transform = Transform3D(-0.999818, 0, 0.0190754, 0, 1, 0, -0.0190754, 0, -0.999818, 6.04727, 5.0018, -6.65105)
+
+[node name="Door_006" parent="." index="631"]
+transform = Transform3D(0.000977353, 0, -1, 0, 1, 0, 1, 0, 0.000977353, 5.73806, 4.99091, -8.87299)
+
+[node name="closet_door_02" parent="." index="633"]
+transform = Transform3D(-1, 8.74228e-08, -8.74228e-08, 8.74228e-08, 1, 0, -8.74228e-08, 7.64274e-15, 1, 4.77386, 1.59743, -3.93088)
+
+[node name="Door_008" parent="." index="637"]
+transform = Transform3D(0.999243, 7.54979e-08, 0.0389111, -7.83784e-08, 1, 7.2503e-08, 0.0389112, 7.54979e-08, -0.999243, 1.88101, 1.66153, -7.81845)
+
+[node name="CollisionShape3D" parent="TV_03/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, -2.84217e-14, 0, 1, 0, 2.84217e-14, 0, 1, 0, 0, 0)
+
+[node name="colliders_003" parent="." index="887"]
+transform = Transform3D(0.336753, 0, 0, 0, 0.336753, 0, 0, 0, 0.336753, 3.60781, 0.231836, 1.66132)

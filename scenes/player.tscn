@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://c4rrqf00kbr7s"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_bgvqr"]
-[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/rp_nathan_animated_003_walking.fbx" id="2_smkgg"]
+[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/nathan/rp_nathan_animated_003_walking.fbx" id="2_1lqea"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kfec2"]
 radius = 0.4
@@ -29,7 +29,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.60038, 0)
 script = ExtResource("1_bgvqr")
 metadata/_edit_group_ = true
 
-[node name="playerModel" parent="." instance=ExtResource("2_smkgg")]
+[node name="playerModel" parent="." instance=ExtResource("2_1lqea")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

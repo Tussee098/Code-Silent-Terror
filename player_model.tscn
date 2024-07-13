@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bj72gljypq1df"]
 
-[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/rp_nathan_animated_003_walking.fbx" id="1_vtego"]
+[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/nathan/rp_nathan_animated_003_walking.fbx" id="1_vtego"]
 
 [node name="playerModel" instance=ExtResource("1_vtego")]
 

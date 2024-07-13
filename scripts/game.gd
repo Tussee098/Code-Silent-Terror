@@ -30,6 +30,7 @@ func _add_player(id):
 	var player = player_scene.instantiate()
 	player.name = str(id)
 	add_child(player)
+	call_deferred("add_child")
 	players.push_back(player)
 
 func _input(event):

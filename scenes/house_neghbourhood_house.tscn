@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://drmwb1dlftn1h"]
+
+[ext_resource type="PackedScene" uid="uid://l1ptjx0ww0id" path="res://scenes/house_collision.tscn" id="2_d1pcg"]
+[ext_resource type="PackedScene" uid="uid://hecn6yrca25k" path="res://scenes/neighbour_hood_TextureMesh.tscn" id="2_nxb18"]
+
+[node name="HouseNeghbourhoodHouse" type="Node3D"]
+
+[node name="NeighbourHood" parent="." instance=ExtResource("2_nxb18")]
+
+[node name="houseCollision" parent="." instance=ExtResource("2_d1pcg")]
+visible = false

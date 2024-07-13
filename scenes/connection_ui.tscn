@@ -12,6 +12,7 @@ grow_vertical = 2
 script = ExtResource("1_35lq3")
 
 [node name="IpAdress" type="TextEdit" parent="."]
+layout_mode = 0
 offset_left = 462.0
 offset_top = 4.0
 offset_right = 649.0
@@ -19,11 +20,13 @@ offset_bottom = 46.0
 placeholder_text = "Ip Adress"
 
 [node name="HostButton" type="Button" parent="."]
+layout_mode = 0
 offset_right = 123.0
 offset_bottom = 36.0
 text = "Host"
 
 [node name="JoinButton" type="Button" parent="."]
+layout_mode = 0
 offset_left = 1040.0
 offset_top = 6.0
 offset_right = 1154.0
