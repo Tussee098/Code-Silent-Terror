@@ -3,8 +3,10 @@ extends CharacterBody3D
 @onready var camera = $Camera3D
 @onready var animation_player = $playerModel/AnimationPlayer
 
+var is_walking = false
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
+
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -38,9 +40,10 @@ func _physics_process(delta):
 		# Get the input direction and handle the movement/deceleration.
 		# As good practice, you should replace UI actions with custom gameplay actions.
 		var input_dir = Input.get_vector("left", "right", "up", "down")
-		
 		if input_dir == Vector2.ZERO:
-			animation_player.stop()
+			is_walking = false
+		else:
+			is_walking = true
 		
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 		$playerModel.rotation.y = -PI
@@ -50,8 +53,7 @@ func _physics_process(delta):
 			velocity.z = direction.z * SPEED
 			$playerModel.rotation.y = -input_dir.angle() + (PI/2)
 			# Play walking animation
-			if not animation_player.is_playing():
-				animation_player.play("Take 001")
+			
 			
 		else:
 			velocity.x = move_toward(velocity.x, 0, SPEED)
@@ -60,3 +62,10 @@ func _physics_process(delta):
 	# Counteract root motion by resetting the model's position
 	move_and_slide()
 	
+
+func _walk_animation():
+	if !is_walking:
+		animation_player.stop()
+		pass
+	if not animation_player.is_playing():
+		animation_player.play("Take 001")
