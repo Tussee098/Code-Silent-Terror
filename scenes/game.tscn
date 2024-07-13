@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
 [ext_resource type="PackedScene" uid="uid://bivstasqmwnw4" path="res://scenes/floor.tscn" id="2_bwrv4"]
 [ext_resource type="PackedScene" uid="uid://drmwb1dlftn1h" path="res://scenes/house_neghbourhood_house.tscn" id="4_yevya"]
-[ext_resource type="PackedScene" uid="uid://10ycp0c0aqj1" path="res://scenes/map.tscn" id="4_pxoot"]
 [ext_resource type="PackedScene" uid="uid://ctgk70n7a05si" path="res://scenes/connection_ui.tscn" id="5_16mme"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_uvg05"]
@@ -15,8 +14,6 @@ properties/0/replication_mode = 1
 [node name="Game" type="Node3D"]
 script = ExtResource("1_l1oj7")
 player_scene = ExtResource("2_3x03m")
-
-[node name="map" parent="." instance=ExtResource("4_pxoot")]
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://scenes/player.tscn")
