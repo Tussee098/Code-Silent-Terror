@@ -3,7 +3,7 @@ extends CharacterBody3D
 @onready var camera = $Camera3D
 @onready var animation_player = $playerModel/AnimationPlayer
 
-var is_walking = false
+@export var is_walking = false
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
