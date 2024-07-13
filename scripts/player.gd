@@ -4,6 +4,7 @@ extends CharacterBody3D
 @onready var animation_player = $playerModel/AnimationPlayer
 
 @export var is_walking = false
+@export var is_idle = false
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
@@ -42,8 +43,10 @@ func _physics_process(delta):
 		var input_dir = Input.get_vector("left", "right", "up", "down")
 		if input_dir == Vector2.ZERO:
 			is_walking = false
+			is_idle = true
 		else:
 			is_walking = true
+			is_idle = false
 		
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 		$playerModel.rotation.y = -PI
@@ -69,3 +72,8 @@ func _walk_animation():
 		pass
 	if not animation_player.is_playing():
 		animation_player.play("Take 001")
+		
+
+func _idle_animation():
+	animation_player.stop()
+	

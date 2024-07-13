@@ -41,4 +41,5 @@ func _process(delta):
 	for player in players:
 		if player.is_walking:
 			player._walk_animation()
-	
+		else:
+			player._idle_animation()
