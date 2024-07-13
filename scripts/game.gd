@@ -10,8 +10,8 @@ func _host_button_pressed():
 	peer.close() # idk
 	peer.create_server(135)
 	multiplayer.multiplayer_peer = peer
-	multiplayer.peer_connected.connect(add_player)
-	add_player(multiplayer.get_unique_id())
+	multiplayer.peer_connected.connect(_add_player)
+	_add_player(multiplayer.get_unique_id())
 	
 
 # MÅste testas
@@ -20,12 +20,13 @@ func _join_button_pressed(ip_adress):
 	peer.close() # idk
 	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
-	add_player(multiplayer.get_unique_id())
+	rpc("_add_player", multiplayer.get_unique_id())
+	
 	
 
 @rpc("any_peer", "call_local", "reliable")
-func add_player(id):
-	print("fdsdfdsfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf")
+func _add_player(id):
+	print("Yahooooo")
 	var player = player_scene.instantiate()
 	player.name = str(id)
 	add_child(player)
