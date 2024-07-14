@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://10ycp0c0aqj1"]
 
 [ext_resource type="PackedScene" uid="uid://bivstasqmwnw4" path="res://scenes/floor.tscn" id="1_5w5w5"]
-[ext_resource type="PackedScene" uid="uid://bbngs576hiwrg" path="res://scenes/floor2.tscn" id="2_p1qun"]
+[ext_resource type="PackedScene" uid="uid://c311c205vgnrw" path="res://scenes/floor2.tscn" id="2_p1qun"]
 
 [node name="map" type="StaticBody3D"]
 
