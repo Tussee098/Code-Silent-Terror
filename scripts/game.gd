@@ -5,6 +5,7 @@ var peer = ENetMultiplayerPeer.new()
 
 var haunted = false
 
+
 func _host_button_pressed():
 	_toggle_UI(false)
 	peer.close() # idk
@@ -22,15 +23,14 @@ func _join_button_pressed(ip_adress):
 	peer.create_client(ip_adress, 135)
 	multiplayer.multiplayer_peer = peer
 	_add_player(multiplayer.get_unique_id())
-	
 
-@rpc("any_peer", "call_local", "reliable")
+
 func _add_player(id):
-	print("Yahooooo")
 	var player = player_scene.instantiate()
 	player.name = "Player" + str(id)
 	add_child(player)
 	call_deferred("add_child")
+
 
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
@@ -57,3 +57,13 @@ func _start_game():
 			players.append(child)
 	var random_number = randi() % players.size()
 	players[random_number].haunted = true
+	print(random_number)
+	_load_haunted.rpc_id(1)
+	
+
+
+@rpc("call_local")
+func _load_haunted():
+	$DirectionalLight3D.visible = !visible
+	print("LoadingHaunted...")
+	pass
