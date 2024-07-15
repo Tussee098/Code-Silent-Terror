@@ -4,6 +4,7 @@ var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
 
 var haunted = false
+var playerIds = []
 
 func _host_button_pressed():
 	_toggle_UI(false)
@@ -11,7 +12,8 @@ func _host_button_pressed():
 	peer.create_server(135)
 	multiplayer.multiplayer_peer = peer
 	multiplayer.peer_connected.connect(_add_player)
-	_add_player(multiplayer.get_unique_id())
+	var newId = multiplayer.get_unique_id()
+	_add_player(newId)
 	$StartGameButton.visible = !$StartGameButton.visible
 	
 
@@ -27,6 +29,7 @@ func _join_button_pressed(ip_adress):
 
 @rpc("any_peer", "call_local", "reliable")
 func _add_player(id):
+	playerIds.append(id)
 	var player = player_scene.instantiate()
 	player.name = "Player" + str(id)
 	add_child(player)
@@ -50,13 +53,10 @@ func _on_start_game_button_pressed():
 
 func _start_game():
 	randomize()
-	var players = []
-	for child in get_children():
-		if child.name.begins_with("Player"):
-			players.append(child)
-	var random_number = randi() % players.size()
-	players[random_number].haunted = true
-	_load_haunted.rpc_id(1)
+	
+	#players[random_number].haunted = true
+	var random_number = randi() % playerIds.size()
+	_load_haunted.rpc_id(playerIds[random_number])
 
 @rpc("call_local")
 func _load_haunted():
