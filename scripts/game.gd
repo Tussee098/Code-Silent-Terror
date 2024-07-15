@@ -22,7 +22,6 @@ func _join_button_pressed(ip_adress):
 	multiplayer.multiplayer_peer = peer
 	rpc("_add_player", multiplayer.get_unique_id())
 	
-	
 
 @rpc("any_peer", "call_local", "reliable")
 func _add_player(id):
