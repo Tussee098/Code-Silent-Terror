@@ -3,7 +3,7 @@ extends Node3D
 var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
 
-@export var players : Array
+var players : Array
 
 func _host_button_pressed():
 	_toggle_UI(false)
@@ -43,9 +43,3 @@ func _toggle_UI(value : bool):
 	$ConnectionUI.set_visible(value)
 	
 
-func _process(_delta):
-	for player in players:
-		if player.is_walking:
-			player._walk_animation()
-		else:
-			player._idle_animation()
