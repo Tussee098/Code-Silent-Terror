@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bke2oxr3a8h3l"]
+
+[resource]
+resource_name = "Door_02"
+transparency = 4
+cull_mode = 2

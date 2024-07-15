@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cny350sf78nwe"]
+
+[resource]
+resource_name = "Plaster_02"
+cull_mode = 2

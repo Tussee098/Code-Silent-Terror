@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ccb73l412j1ay"]
+
+[resource]
+resource_name = "Palette"
+transparency = 4
+cull_mode = 2

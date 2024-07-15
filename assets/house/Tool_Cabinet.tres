@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c5bnmk7pxy13c"]
+
+[resource]
+resource_name = "Tool_Cabinet"
+transparency = 4
+cull_mode = 2

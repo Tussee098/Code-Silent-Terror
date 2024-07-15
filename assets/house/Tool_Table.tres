@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dl042q6470i6k"]
+
+[resource]
+resource_name = "Tool_Table"
+cull_mode = 2

@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://egti4345fkkg"]
+
+[resource]
+resource_name = "Ladder_01"
+cull_mode = 2

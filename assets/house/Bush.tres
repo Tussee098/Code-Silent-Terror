@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cibwv2gj0q1c3"]
+
+[resource]
+resource_name = "Bush"
+transparency = 4
+cull_mode = 2

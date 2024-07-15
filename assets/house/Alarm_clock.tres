@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cyir7nsx72vqh"]
+
+[resource]
+resource_name = "Alarm_clock"
+transparency = 4
+cull_mode = 2

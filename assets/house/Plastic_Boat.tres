@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cna35wmwkchmi"]
+
+[resource]
+resource_name = "Plastic_Boat"
+transparency = 4
+cull_mode = 2

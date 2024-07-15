@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://vk6y7cu3piao"]
+
+[resource]
+resource_name = "Focus_01"
+transparency = 4
+cull_mode = 2
+emission_enabled = true
+emission = Color(1, 1, 1, 1)

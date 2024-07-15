@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://hiwrox5m7psc"]
+
+[resource]
+resource_name = "TilesSmall"
+cull_mode = 2

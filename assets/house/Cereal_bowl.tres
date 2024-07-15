@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bk7vkijoudxsu"]
+
+[resource]
+resource_name = "Cereal_bowl"
+transparency = 4
+cull_mode = 2

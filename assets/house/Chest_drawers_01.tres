@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://chheq1e7nocec"]
+
+[resource]
+resource_name = "Chest_drawers_01"
+transparency = 4
+cull_mode = 2

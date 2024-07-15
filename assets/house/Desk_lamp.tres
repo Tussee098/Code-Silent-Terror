@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ftg54nhuiwni"]
+
+[resource]
+resource_name = "Desk_lamp"
+transparency = 4
+cull_mode = 2

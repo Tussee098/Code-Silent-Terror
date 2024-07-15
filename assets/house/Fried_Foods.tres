@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://btorirx8hi4bl"]
+
+[resource]
+resource_name = "Fried_Foods"
+transparency = 4
+cull_mode = 2

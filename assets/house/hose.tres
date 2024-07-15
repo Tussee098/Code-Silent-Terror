@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dqgp0fe5cmr1f"]
+
+[resource]
+resource_name = "hose"
+transparency = 4
+cull_mode = 2

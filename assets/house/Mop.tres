@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dpq8gviku2sag"]
+
+[resource]
+resource_name = "Mop"
+transparency = 4
+cull_mode = 2

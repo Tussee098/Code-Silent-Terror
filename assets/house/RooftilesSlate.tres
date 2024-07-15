@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cggfp5mru1etm"]
+
+[resource]
+resource_name = "RooftilesSlate"
+cull_mode = 2

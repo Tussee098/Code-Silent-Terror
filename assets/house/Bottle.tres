@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://iaso5pj3qmgm"]
+
+[resource]
+resource_name = "Bottle"
+transparency = 4
+cull_mode = 2

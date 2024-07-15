@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c47eh1dyrbcjs"]
+
+[resource]
+resource_name = "Tree_06"
+transparency = 4
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d0qbideab6yaa"]
+
+[resource]
+resource_name = "Entertainment"
+transparency = 4
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bggp0q5f131k"]
+
+[resource]
+resource_name = "Petrol_Can"
+transparency = 4
+cull_mode = 2

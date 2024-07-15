@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://k2mk0ps3ecmf"]
+
+[resource]
+resource_name = "Books"
+transparency = 4
+cull_mode = 2

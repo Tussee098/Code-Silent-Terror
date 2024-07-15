@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cqpacd6gv5nq4"]
+
+[resource]
+resource_name = "Chicken.001"
+transparency = 4
+cull_mode = 2

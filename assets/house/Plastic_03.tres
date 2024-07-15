@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dxdgdm6nt7nnm"]
+
+[resource]
+resource_name = "Plastic_03"
+transparency = 4
+cull_mode = 2

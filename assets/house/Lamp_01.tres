@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cqqjrvaupqgh6"]
+
+[resource]
+resource_name = "Lamp_01"
+transparency = 4
+cull_mode = 2

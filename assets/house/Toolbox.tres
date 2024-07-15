@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://kc1tcf4qqw2k"]
+
+[resource]
+resource_name = "Toolbox"
+transparency = 4
+cull_mode = 2

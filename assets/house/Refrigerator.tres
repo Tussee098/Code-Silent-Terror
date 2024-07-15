@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cij4xim7u63ml"]
+
+[resource]
+resource_name = "Refrigerator"
+transparency = 4
+cull_mode = 2

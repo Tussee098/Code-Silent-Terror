@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dqakamg6g01n3"]
+
+[resource]
+resource_name = "Chair"
+transparency = 4
+cull_mode = 2

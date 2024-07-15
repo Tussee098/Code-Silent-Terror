@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b232cokut0e3x"]
+
+[resource]
+resource_name = "Milk"
+transparency = 4
+cull_mode = 2

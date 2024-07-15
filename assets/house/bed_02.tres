@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dp4ypa24wuddr"]
+
+[resource]
+resource_name = "bed_02"
+transparency = 4
+cull_mode = 2

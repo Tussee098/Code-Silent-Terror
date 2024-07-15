@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cscsmd4jecvus"]
+
+[resource]
+resource_name = "Paint_pot"
+transparency = 4
+cull_mode = 2

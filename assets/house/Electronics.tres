@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://j3y646bcxod7"]
+
+[resource]
+resource_name = "Electronics"
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://8437rk0865io"]
+
+[resource]
+resource_name = "Shovel"
+transparency = 4
+cull_mode = 2

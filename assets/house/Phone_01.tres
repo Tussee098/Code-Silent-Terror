@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ceu2vg8wqyxd2"]
+
+[resource]
+resource_name = "Phone_01"
+transparency = 4
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://biy2ayqlyukv3"]
+
+[resource]
+resource_name = "Broom_01"
+transparency = 4
+cull_mode = 2

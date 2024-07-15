@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bhuhe747kp2mj"]
+
+[resource]
+resource_name = "Shelving"
+transparency = 4
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dg88fppjvdh5i"]
+
+[resource]
+resource_name = "Pizza"
+transparency = 4
+cull_mode = 2

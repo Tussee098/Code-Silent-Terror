@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dngifdgebpnkv"]
+
+[resource]
+resource_name = "Wood_08"
+cull_mode = 2

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cxeg55p87l5hb"]
+
+[resource]
+resource_name = "Plants"
+transparency = 4
+cull_mode = 2

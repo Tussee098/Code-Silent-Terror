@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://br0gtjtub3dg3"]
+
+[resource]
+resource_name = "Fence"
+transparency = 4
+cull_mode = 2
