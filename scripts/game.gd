@@ -31,7 +31,8 @@ func _join_button_pressed(ip_adress):
 func _add_player(id):
 	playerIds.append(id)
 	var player = player_scene.instantiate()
-	player.name = "Player" + str(id)
+	player.name = str(id)
+	player.player_id = id
 	add_child(player)
 	call_deferred("add_child")
 
@@ -58,8 +59,10 @@ func _start_game():
 	var random_number = randi() % playerIds.size()
 	_load_haunted.rpc_id(playerIds[random_number])
 
+#Anything that should happen to the haunted player when Loading
 @rpc("call_local")
 func _load_haunted():
 	print("Loading Haunted...")
 	$DirectionalLight3D.visible = !visible
+	
 	pass
