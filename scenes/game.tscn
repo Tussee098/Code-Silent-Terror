@@ -23,3 +23,14 @@ transform = Transform3D(1, 0, 0, 0, 0.0236645, 0.99972, 0, -0.99972, 0.0236645, 
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -38.0085)
 
 [node name="Floor" parent="." instance=ExtResource("2_bwrv4")]
+
+[node name="StartGameButton" type="Button" parent="."]
+visible = false
+offset_left = 345.0
+offset_top = 266.0
+offset_right = 829.0
+offset_bottom = 436.0
+text = "Start Game
+"
+
+[connection signal="pressed" from="StartGameButton" to="." method="_on_start_game_button_pressed"]

@@ -8,6 +8,8 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
+var mouse_visible = true
+var haunted = false
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -23,6 +25,7 @@ func _unhandled_input(event):
 		rotate_y(-event.relative.x * .005)
 		camera.rotate_x(-event.relative.y * .005)
 		camera.rotation.x = clamp(camera.rotation.x, -PI/2, PI/2)
+		
 
 func _enter_tree():
 	set_multiplayer_authority(name.to_int())
@@ -33,7 +36,16 @@ func _physics_process(delta):
 	if(is_multiplayer_authority()):
 		if not is_on_floor():
 			velocity.y -= gravity * delta
-
+	
+		#Toggle Mouse
+		#if Input.is_action_just_pressed("alt_button"):
+		#	print("dfsdfs")
+		#	mouse_visible = !mouse_visible
+		#if mouse_visible:
+		#	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+		#else:
+		#	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+		
 		# Handle jump.
 		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 			velocity.y = JUMP_VELOCITY
@@ -64,9 +76,9 @@ func _physics_process(delta):
 	move_and_slide()
 	
 
+
 @rpc("call_local")
 func _walk_animation():
-	print("defsafds")
 	if !is_walking:
 		animation_player.stop()
 		pass
