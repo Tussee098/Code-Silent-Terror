@@ -56,9 +56,9 @@ func _physics_process(delta):
 		# As good practice, you should replace UI actions with custom gameplay actions.
 		var input_dir = Input.get_vector("left", "right", "up", "down")
 		if input_dir != Vector2.ZERO:
-			_walk_animation.rpc()
+			_walk_animation()
 		else:
-			_idle_animation.rpc()
+			_idle_animation()
 		
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 		$playerModel.rotation.y = -PI
@@ -79,19 +79,32 @@ func _physics_process(delta):
 	
 
 
-@rpc("call_local")
+
 func _walk_animation():
 	if !is_walking:
-		animation_player.stop()
+		_stop_walking.rpc()
 		pass
 	if not animation_player.is_playing():
-		animation_player.play("Take 001")
-		is_walking = true
-		is_idle = false
-
+		_start_walking.rpc()
 
 @rpc("call_local")
+func _stop_walking():
+	animation_player.stop()
+
+@rpc("call_local")
+func _start_walking():
+	animation_player.play("Take 001")
+	is_walking = true
+	is_idle = false
+
+
 func _idle_animation():
+	if is_walking:
+		_start_idle.rpc()
+	
+
+@rpc("call_local")
+func _start_idle():
 	animation_player.stop()
 	is_walking = false
 	is_idle = true
