@@ -5,7 +5,7 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kfec2"]
 margin = 0.15
-radius = 0.2
+radius = 0.1
 height = 1.934
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_fe5u2"]
@@ -27,6 +27,9 @@ properties/4/replication_mode = 1
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.60038, 0)
+slide_on_ceiling = false
+floor_max_angle = 1.309
+safe_margin = 0.1
 script = ExtResource("1_bgvqr")
 metadata/_edit_group_ = true
 
