@@ -108,3 +108,10 @@ func _start_idle():
 	animation_player.stop()
 	is_walking = false
 	is_idle = true
+
+
+func set_haunted(value : bool):
+	haunted = value
+	#set_collision_layer(10)
+	print(get_collision_layer_value(1))
+	print(get_collision_layer_value(10))

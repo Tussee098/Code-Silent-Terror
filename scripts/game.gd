@@ -57,12 +57,33 @@ func _start_game():
 	
 	#players[random_number].haunted = true
 	var random_number = randi() % playerIds.size()
-	_load_haunted.rpc_id(playerIds[random_number])
+	var player_id = playerIds[random_number]
+	rpc_id(player_id, "_load_haunted", player_id)
 
 #Anything that should happen to the haunted player when Loading
+
 @rpc("call_local")
-func _load_haunted():
+func _load_haunted(player_id):
 	print("Loading Haunted...")
 	$DirectionalLight3D.visible = !visible
-	
+	$MusicPlayer.play()
+	var children = get_children()
+	var haunted_player
+	for child in children:
+		if child.name == str(player_id):
+			haunted_player = child
+	haunted_player.set_haunted(true)
 	pass
+
+
+func _on_entrance_trigger_body_entered(body):
+	var music_timer = $MusicPlayer.get_playback_position()
+	$MusicPlayer.stop()
+	var entrance_trigger = $EntranceTrigger 
+	var Jumpscareplayer = entrance_trigger.get_child(0)
+	Jumpscareplayer.play()
+	pass # Replace with function body.
+
+
+func _on_jump_scare_player_finished():
+	$MusicPlayer.play()
