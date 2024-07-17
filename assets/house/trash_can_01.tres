@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://b5qaglprmk1fp"]
-
-[resource]
-resource_name = "trash_can_01"
-transparency = 4
-cull_mode = 2

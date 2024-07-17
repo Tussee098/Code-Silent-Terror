@@ -1,0 +1,1512 @@
+# Blender 4.1.1 MTL File: 'houseCollision.blend'
+# www.blender.org
+
+newmtl Alarm_clock
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Alarm_clock.png
+map_d E:/projekt/models/house/House/Models/Alarm_clock.png
+
+newmtl Alarm_clock_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Alarm_clock_01.png
+map_d E:/projekt/models/house/House/Models/Alarm_clock_01.png
+
+newmtl Asphalt
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Asphalt.jpg
+
+newmtl AsphaltDamaged
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/AsphaltDamaged.jpg
+
+newmtl Background
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Background.png
+map_d E:/projekt/models/house/House/Models/Background.png
+
+newmtl Books
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Books.png
+map_d E:/projekt/models/house/House/Models/Books.png
+
+newmtl Bottle
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Bottle.png
+map_d E:/projekt/models/house/House/Models/Bottle.png
+
+newmtl Box
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Box.png
+map_d E:/projekt/models/house/House/Models/Box.png
+
+newmtl Box_Pizza
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Box_Pizza.png
+map_d E:/projekt/models/house/House/Models/Box_Pizza.png
+
+newmtl Box_strawberries
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Box_strawberries.png
+map_d E:/projekt/models/house/House/Models/Box_strawberries.png
+
+newmtl BrickOld
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/BrickOld.jpg
+
+newmtl BrickSmallBrown
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/BrickSmallBrown.jpg
+
+newmtl Broom
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Broom.png
+map_d E:/projekt/models/house/House/Models/Broom.png
+
+newmtl Broom_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Broom_01.png
+map_d E:/projekt/models/house/House/Models/Broom_01.png
+
+newmtl Bush
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Bush.png
+map_d E:/projekt/models/house/House/Models/Bush.png
+
+newmtl Cake
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cake.png
+map_d E:/projekt/models/house/House/Models/Cake.png
+
+newmtl Cake_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cake_01.png
+map_d E:/projekt/models/house/House/Models/Cake_01.png
+
+newmtl Cake_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cake_02.png
+map_d E:/projekt/models/house/House/Models/Cake_02.png
+
+newmtl Can
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Can.png
+map_d E:/projekt/models/house/House/Models/Can.png
+
+newmtl Ceiling
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Ceiling.jpg
+
+newmtl Ceiling_Fan
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Ceiling_Fan.png
+map_d E:/projekt/models/house/House/Models/Ceiling_Fan.png
+
+newmtl Cereal_bowl
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cereal_bowl.png
+map_d E:/projekt/models/house/House/Models/Cereal_bowl.png
+
+newmtl Chair
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Chair.png
+map_d E:/projekt/models/house/House/Models/Chair.png
+
+newmtl Chest_drawers
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Chest_drawers.png
+map_d E:/projekt/models/house/House/Models/Chest_drawers.png
+
+newmtl Chest_drawers_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Chest_drawers_01.png
+map_d E:/projekt/models/house/House/Models/Chest_drawers_01.png
+
+newmtl Chicken.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Chicken.png
+map_d E:/projekt/models/house/House/Models/Chicken.png
+
+newmtl ConcreteBare
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/ConcreteBare.jpg
+
+newmtl ConcreteBare_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/ConcreteBare_01.png
+
+newmtl Cupboard
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cupboard.png
+map_d E:/projekt/models/house/House/Models/Cupboard.png
+
+newmtl Cupboard_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cupboard_01.png
+map_d E:/projekt/models/house/House/Models/Cupboard_01.png
+
+newmtl Cutlery
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Cutlery.png
+map_d E:/projekt/models/house/House/Models/Cutlery.png
+
+newmtl Desk_lamp
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Desk_lamp.png
+map_d E:/projekt/models/house/House/Models/Desk_lamp.png
+
+newmtl Desk_lamp_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Desk_lamp_01.png
+map_d E:/projekt/models/house/House/Models/Desk_lamp_01.png
+
+newmtl Dirty__clothes
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Dirty _clothes.jpg
+
+newmtl Door
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Door.jpg
+
+newmtl Door_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Door_01.jpg
+
+newmtl Door_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Door_02.png
+map_d E:/projekt/models/house/House/Models/Door_02.png
+
+newmtl Electronics
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Electronics.jpg
+
+newmtl Emissor
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.001088 1.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Entertainment
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Entertainment.png
+map_d E:/projekt/models/house/House/Models/Entertainment.png
+
+newmtl Fabric_15
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/srkak/Music/pasto/3/Fabric_15.jpg
+
+newmtl Fence
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Fence.png
+map_d E:/projekt/models/house/House/Models/Fence.png
+
+newmtl Flan
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Flan.png
+map_d E:/projekt/models/house/House/Models/Flan.png
+
+newmtl Flower_Table
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Flower_Table.png
+map_d E:/projekt/models/house/House/Models/Flower_Table.png
+
+newmtl Flowers
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Flowers.png
+map_d E:/projekt/models/house/House/Models/Flowers.png
+
+newmtl Focus_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Focus_01.png
+map_Ke E:/projekt/models/house/House/Models/Focus_01_Emissor.png
+map_d E:/projekt/models/house/House/Models/Focus_01.png
+
+newmtl Focus_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Focus_02.png
+map_Ke E:/projekt/models/house/House/Models/Focus_02_Emissor.png
+map_d E:/projekt/models/house/House/Models/Focus_02.png
+
+newmtl Fried_Foods
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Fried_Foods.png
+map_d E:/projekt/models/house/House/Models/Fried_Foods.png
+
+newmtl Gadgets
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd C:/Users/srkak/Music/pasto/3/Paquete de modelos  psx 3/Village/Gadgets.png
+map_d C:/Users/srkak/Music/pasto/3/Paquete de modelos  psx 3/Village/Gadgets.png
+
+newmtl Garage_Door
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Garage_Door.png
+map_d E:/projekt/models/house/House/Models/Garage_Door.png
+
+newmtl Garbage_bags
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Garbage_bags.png
+map_d E:/projekt/models/house/House/Models/Garbage_bags.png
+
+newmtl Glass
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.485507 0.485507 0.485507
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Grass
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Grass.jpg
+
+newmtl Hedges
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Hedges.jpg
+
+newmtl Hygiene
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Hygiene.jpg
+
+newmtl Ice_cream
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Ice_cream.png
+map_d E:/projekt/models/house/House/Models/Ice_cream.png
+
+newmtl Ice_cream_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Ice_cream_01.png
+map_d E:/projekt/models/house/House/Models/Ice_cream_01.png
+
+newmtl Kitchen
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Kitchen.jpg
+
+newmtl Ladder
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Ladder.png
+map_d E:/projekt/models/house/House/Models/Ladder.png
+
+newmtl Ladder_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/.
+
+newmtl Lamp_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Lamp_01.png
+map_d E:/projekt/models/house/House/Models/Lamp_01.png
+
+newmtl Leather_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Leather_01.jpg
+
+newmtl Light_switch
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Light_switch.png
+
+newmtl Lights_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Lights_01.jpg
+map_Ke E:/projekt/models/house/House/Models/Lights_01_Emissor.png
+
+newmtl Marble
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Marble.jpg
+
+newmtl Marble_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Marble.jpg
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Meat
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Meat.png
+map_d E:/projekt/models/house/House/Models/Meat.png
+
+newmtl Metal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal.jpg
+
+newmtl Metal_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal_01.jpg
+
+newmtl Metal_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal_02.jpg
+
+newmtl Metal_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal_03.jpg
+
+newmtl Metal_04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal_04.jpg
+
+newmtl Metal_08
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Metal_08.jpg
+
+newmtl Milk
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Milk.png
+map_d E:/projekt/models/house/House/Models/Milk.png
+
+newmtl Mop
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Mop.png
+map_d E:/projekt/models/house/House/Models/Mop.png
+
+newmtl Mower
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Mower.png
+map_d E:/projekt/models/house/House/Models/Mower.png
+
+newmtl NaturePlants
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants.png
+map_d E:/projekt/models/house/House/Models/NaturePlants.png
+
+newmtl NaturePlants_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_01.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_01.png
+
+newmtl NaturePlants_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_02.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_02.png
+
+newmtl NaturePlants_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_03.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_03.png
+
+newmtl NaturePlants_04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_04.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_04.png
+
+newmtl NaturePlants_05
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_05.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_05.png
+
+newmtl NaturePlants_06
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/NaturePlants_06.png
+map_d E:/projekt/models/house/House/Models/NaturePlants_06.png
+
+newmtl Paint_pot
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Paint_pot.png
+map_d E:/projekt/models/house/House/Models/Paint_pot.png
+
+newmtl Palette
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Palette.png
+map_d E:/projekt/models/house/House/Models/Palette.png
+
+newmtl Petrol_Can
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Petrol_Can.png
+map_d E:/projekt/models/house/House/Models/Petrol_Can.png
+
+newmtl Petrol_Can_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Petrol_Can_01.png
+map_d E:/projekt/models/house/House/Models/Petrol_Can_01.png
+
+newmtl Phone
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Phone.png
+map_d E:/projekt/models/house/House/Models/Phone.png
+
+newmtl Phone_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Phone_01.png
+map_d E:/projekt/models/house/House/Models/Phone_01.png
+
+newmtl Pizza
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Pizza.png
+map_d E:/projekt/models/house/House/Models/Pizza.png
+
+newmtl Plants
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plants.png
+map_d E:/projekt/models/house/House/Models/Plants.png
+
+newmtl PlasterWhite
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/PlasterWhite.jpg
+
+newmtl Plaster_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/srkak/Music/pasto/3/Plaster_02.jpg
+
+newmtl Plastic_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd C:/Users/srkak/Music/pasto/3/Plastic_03.png
+map_d C:/Users/srkak/Music/pasto/3/Plastic_03.png
+
+newmtl Plastic_05
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plastic_05.png
+map_d E:/projekt/models/house/House/Models/Plastic_05.png
+
+newmtl Plastic_06
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plastic_06.jpg
+
+newmtl Plastic_09
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plastic_09.jpg
+
+newmtl Plastic_10
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plastic_10.png
+map_d E:/projekt/models/house/House/Models/Plastic_10.png
+
+newmtl Plastic_Boat
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plastic_Boat.png
+map_d E:/projekt/models/house/House/Models/Plastic_Boat.png
+
+newmtl Plate_food
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plate_food.png
+map_d E:/projekt/models/house/House/Models/Plate_food.png
+
+newmtl Plates
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Plates.png
+map_d E:/projekt/models/house/House/Models/Plates.png
+
+newmtl Rake
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Rake.png
+map_d E:/projekt/models/house/House/Models/Rake.png
+
+newmtl Rake_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Rake_01.png
+map_d E:/projekt/models/house/House/Models/Rake_01.png
+
+newmtl Refrigerator
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Refrigerator.png
+map_d E:/projekt/models/house/House/Models/Refrigerator.png
+
+newmtl Rock
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Rock.jpg
+
+newmtl RooftilesSlate
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/RooftilesSlate.jpg
+
+newmtl Shelving
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Shelving.png
+map_d E:/projekt/models/house/House/Models/Shelving.png
+
+newmtl Shovel
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Shovel.png
+map_d E:/projekt/models/house/House/Models/Shovel.png
+
+newmtl SoilBeach
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/SoilBeach.jpg
+
+newmtl Stoves
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Stove.jpg
+
+newmtl TilesSmall
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/TilesSmall.png
+
+newmtl TilesSmall_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/TilesSmall_01.jpg
+
+newmtl Tiles_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tiles_02.jpg
+
+newmtl Tool_Cabinet
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tool_Cabinet.png
+map_d E:/projekt/models/house/House/Models/Tool_Cabinet.png
+
+newmtl Tool_Table
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tool_Table.jpg
+
+newmtl Tool_Table_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tool_Table_01.png
+map_d E:/projekt/models/house/House/Models/Tool_Table_01.png
+
+newmtl Toolbox
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Toolbox.png
+map_d E:/projekt/models/house/House/Models/Toolbox.png
+
+newmtl Trash_can
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Trash_can.png
+map_d E:/projekt/models/house/House/Models/Trash_can.png
+
+newmtl Tree
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree.png
+map_d E:/projekt/models/house/House/Models/Tree.png
+
+newmtl Tree_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree_01.png
+map_d E:/projekt/models/house/House/Models/Tree_01.png
+
+newmtl Tree_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree_02.png
+map_d E:/projekt/models/house/House/Models/Tree_02.png
+
+newmtl Tree_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree_03.png
+map_d E:/projekt/models/house/House/Models/Tree_03.png
+
+newmtl Tree_04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree_04.png
+map_d E:/projekt/models/house/House/Models/Tree_04.png
+
+newmtl Tree_06
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Tree_05.png
+map_d E:/projekt/models/house/House/Models/Tree_05.png
+
+newmtl Wardrobe
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wardrobe.png
+map_d E:/projekt/models/house/House/Models/Wardrobe.png
+
+newmtl Wardrobe_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wardrobe_01.png
+map_d E:/projekt/models/house/House/Models/Wardrobe_01.png
+
+newmtl White
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.897091 0.897091 0.897091
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Windows
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Windows.jpg
+
+newmtl Wood
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood.jpg
+
+newmtl WoodFine_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/WoodFine_01.jpg
+
+newmtl WoodFine_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/WoodFine_02.jpg
+
+newmtl WoodPlanks
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/WoodPlanks.jpg
+
+newmtl WoodPlanks_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/WoodPlanks_01.jpg
+
+newmtl Wood_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_02.jpg
+
+newmtl Wood_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_03.jpg
+
+newmtl Wood_04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_04.jpg
+
+newmtl Wood_05
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_05.jpg
+
+newmtl Wood_06
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_06.jpg
+
+newmtl Wood_07
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_07.jpg
+
+newmtl Wood_08
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_08.jpg
+
+newmtl Wood_09
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_09.jpg
+
+newmtl Wood_10
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/Wood_10.jpg
+
+newmtl Wood_15
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/srkak/Music/pasto/3/Wood_15.jpg
+
+newmtl bed_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/bed_01.png
+map_d E:/projekt/models/house/House/Models/bed_01.png
+
+newmtl bed_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/bed_02.png
+map_d E:/projekt/models/house/House/Models/bed_02.png
+
+newmtl bed_03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/bed_03.png
+map_d E:/projekt/models/house/House/Models/bed_03.png
+
+newmtl hose
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/hose.png
+map_d E:/projekt/models/house/House/Models/hose.png
+
+newmtl hose_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/hose_01.png
+map_d E:/projekt/models/house/House/Models/hose_01.png
+
+newmtl plants_flowers
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/plants_flowers.png
+map_d E:/projekt/models/house/House/Models/plants_flowers.png
+
+newmtl trash_can_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd E:/projekt/models/house/House/Models/trash_can_01png.png
+map_d E:/projekt/models/house/House/Models/trash_can_01png.png

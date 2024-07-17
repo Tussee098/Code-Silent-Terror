@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://b6kyrhl3htu85"]
-
-[resource]
-resource_name = "Garage_Door"
-transparency = 4
-cull_mode = 2

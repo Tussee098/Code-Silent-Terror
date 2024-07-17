@@ -1,5 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://dt32o31d2uws"]
-
-[resource]
-resource_name = "ConcreteBare"
-cull_mode = 2

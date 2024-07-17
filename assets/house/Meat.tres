@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://df1fmenyta8nl"]
-
-[resource]
-resource_name = "Meat"
-transparency = 4
-cull_mode = 2

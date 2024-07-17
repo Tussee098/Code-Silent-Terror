@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://b40nvaxtec2aq"]
-
-[resource]
-resource_name = "Plastic_10"
-transparency = 4
-cull_mode = 2

@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://bth86m2oihfix"]
-
-[resource]
-resource_name = "Ceiling_Fan"
-transparency = 4
-cull_mode = 2

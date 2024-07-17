@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://b3e33884ackxt"]
-
-[resource]
-resource_name = "Cupboard_01"
-transparency = 4
-cull_mode = 2

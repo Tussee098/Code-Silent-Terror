@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://cww0d1dacds6l"]
-
-[resource]
-resource_name = "Garbage_bags"
-transparency = 4
-cull_mode = 2

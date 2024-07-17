@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://5310q1834kip"]
-
-[resource]
-resource_name = "Wardrobe"
-transparency = 4
-cull_mode = 2

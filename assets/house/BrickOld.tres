@@ -1,5 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://dq1kef4r7me6g"]
-
-[resource]
-resource_name = "BrickOld"
-cull_mode = 2

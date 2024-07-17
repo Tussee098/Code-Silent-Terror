@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://jwkta5bc0ywe"]
-
-[resource]
-resource_name = "Ladder"
-transparency = 4
-cull_mode = 2

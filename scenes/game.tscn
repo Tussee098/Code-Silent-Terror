@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_l1oj7"]
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
-[ext_resource type="PackedScene" uid="uid://dwldwx7ltfo5" path="res://assets/house/House_Colliders-col.fbx" id="4_vlwkk"]
+[ext_resource type="PackedScene" uid="uid://cl3t54vp3loue" path="res://scenes/house_neighbour_hood.tscn" id="4_r7n7x"]
 [ext_resource type="PackedScene" uid="uid://ctgk70n7a05si" path="res://scenes/connection_ui.tscn" id="5_16mme"]
 
 [node name="Game" type="Node3D"]
@@ -26,6 +26,7 @@ offset_right = 945.0
 offset_bottom = 404.0
 text = "Start"
 
-[node name="HouseMap" parent="." instance=ExtResource("4_vlwkk")]
+[node name="HouseNeighbourHood" parent="." instance=ExtResource("4_r7n7x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29)
 
 [connection signal="pressed" from="StartGameButton" to="." method="_on_start_game_button_pressed"]

@@ -1,5 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://dx46yn2vgtohn"]
-
-[resource]
-resource_name = "AsphaltDamaged"
-cull_mode = 2

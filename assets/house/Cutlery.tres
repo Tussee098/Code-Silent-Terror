@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://deagk1e8gyoxk"]
-
-[resource]
-resource_name = "Cutlery"
-transparency = 4
-cull_mode = 2
