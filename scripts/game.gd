@@ -77,11 +77,12 @@ func _load_haunted(player_id):
 
 
 func _on_entrance_trigger_body_entered(body):
-	var music_timer = $MusicPlayer.get_playback_position()
-	$MusicPlayer.stop()
-	var entrance_trigger = $EntranceTrigger 
-	var Jumpscareplayer = entrance_trigger.get_child(0)
-	Jumpscareplayer.play()
+	if body.is_haunted:
+		var music_timer = $MusicPlayer.get_playback_position()
+		$MusicPlayer.stop()
+		var entrance_trigger = $EntranceTrigger 
+		var Jumpscareplayer = entrance_trigger.get_child(0)
+		Jumpscareplayer.play()
 	pass # Replace with function body.
 
 

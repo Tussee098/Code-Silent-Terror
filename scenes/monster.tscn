@@ -1,8 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://bnyg72u2ne6x0"]
+[gd_scene load_steps=3 format=3 uid="uid://bnyg72u2ne6x0"]
+
+[ext_resource type="ArrayMesh" uid="uid://d2vgb7o0c7soq" path="res://assets/monsters/skinnyWhiteMonster/b2cd13f12e30_A_tall_skinny_human.obj" id="1_7gbca"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_805gv"]
 
-[node name="Monster" type="CharacterBody3D"]
+[node name="SkinnyWhiteMonster" type="CharacterBody3D"]
+metadata/_edit_group_ = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0897682, -0.249319, 0)
 shape = SubResource("CapsuleShape3D_805gv")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.67225, 0, 0, 0, 2.65888, 0, 0, 0, 3.74692, 0, 0, 0)
+layers = 256
+mesh = ExtResource("1_7gbca")

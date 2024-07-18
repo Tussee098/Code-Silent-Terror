@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2vgb7o0c7soq"
+path="res://.godot/imported/b2cd13f12e30_A_tall_skinny_human.obj-36e7e4719cd80d0be25e8327564b97d4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/b2cd13f12e30_A_tall_skinny_human.obj-36e7e4719cd80d0be25e8327564b97d4.mesh"]
+
+source_file="res://assets/monsters/skinnyWhiteMonster/b2cd13f12e30_A_tall_skinny_human.obj"
+dest_files=["res://.godot/imported/b2cd13f12e30_A_tall_skinny_human.obj-36e7e4719cd80d0be25e8327564b97d4.mesh", "res://.godot/imported/b2cd13f12e30_A_tall_skinny_human.obj-36e7e4719cd80d0be25e8327564b97d4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

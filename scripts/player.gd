@@ -9,7 +9,7 @@ const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
 #var mouse_visible = true
-var haunted = false
+var is_haunted = false
 
 var player_id
 
@@ -111,7 +111,7 @@ func _start_idle():
 
 
 func set_haunted(value : bool):
-	haunted = value
-	#set_collision_layer(10)
+	is_haunted = value
+	set_collision_layer(1000000001)
 	print(get_collision_layer_value(1))
 	print(get_collision_layer_value(10))
