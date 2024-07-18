@@ -2,11 +2,11 @@
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_l1oj7"]
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
-[ext_resource type="PackedScene" uid="uid://cl3t54vp3loue" path="res://scenes/house_neighbour_hood.tscn" id="4_r7n7x"]
 [ext_resource type="PackedScene" uid="uid://ctgk70n7a05si" path="res://scenes/connection_ui.tscn" id="5_16mme"]
 [ext_resource type="AudioStream" uid="uid://b803jkpa54mtm" path="res://assets/hauntedSounds/2021-02-23_-_Fantasy_Ambience_-_David_Fesliyan.mp3" id="5_su7xa"]
 [ext_resource type="AudioStream" uid="uid://byu7w4cnepqxw" path="res://assets/hauntedSounds/2021-09-24_-_Jump_Scare_L_-_www.FesliyanStudios.com.mp3" id="6_5mlc1"]
 [ext_resource type="PackedScene" uid="uid://bnyg72u2ne6x0" path="res://scenes/monster.tscn" id="7_bwcvr"]
+[ext_resource type="PackedScene" uid="uid://blkdsab26bekf" path="res://assets/house/houseCollision.glb" id="7_i0q6w"]
 
 [sub_resource type="Environment" id="Environment_7k2ni"]
 volumetric_fog_enabled = true
@@ -45,15 +45,12 @@ offset_right = 945.0
 offset_bottom = 404.0
 text = "Start"
 
-[node name="HouseNeighbourHood" parent="." instance=ExtResource("4_r7n7x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29)
-
 [node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_su7xa")
 volume_db = -10.306
 
 [node name="EntranceTrigger" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15732, 1.88383, -30.9028)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15732, 1.88383, -31.1142)
 collision_layer = 0
 collision_mask = 512
 monitorable = false
@@ -69,6 +66,10 @@ shape = SubResource("CapsuleShape3D_2j0bp")
 
 [node name="Monster" parent="." instance=ExtResource("7_bwcvr")]
 transform = Transform3D(-0.0146253, 0, -0.999893, 0, 1, 0, 0.999893, 0, -0.0146253, 2.61212, 1.78968, -32.7124)
+visible = true
+
+[node name="HouseNeighbourHood" parent="." instance=ExtResource("7_i0q6w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29.4203)
 
 [connection signal="pressed" from="StartGameButton" to="." method="_on_start_game_button_pressed"]
 [connection signal="body_entered" from="EntranceTrigger" to="." method="_on_entrance_trigger_body_entered"]
