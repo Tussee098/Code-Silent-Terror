@@ -73,6 +73,7 @@ func _load_haunted(player_id):
 		if child.name == str(player_id):
 			haunted_player = child
 	haunted_player.set_haunted(true)
+	$Monster.visible = visible
 	pass
 
 
