@@ -103,6 +103,7 @@ func _idle_animation():
 		_start_idle.rpc()
 	
 
+
 @rpc("call_local")
 func _start_idle():
 	animation_player.stop()
@@ -113,5 +114,3 @@ func _start_idle():
 func set_haunted(value : bool):
 	is_haunted = value
 	set_collision_layer(1000000001)
-	print(get_collision_layer_value(1))
-	print(get_collision_layer_value(10))

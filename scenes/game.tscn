@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://oo1bxsvf5ttb"]
+[gd_scene load_steps=11 format=3 uid="uid://oo1bxsvf5ttb"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_l1oj7"]
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
@@ -8,23 +8,11 @@
 [ext_resource type="AudioStream" uid="uid://byu7w4cnepqxw" path="res://assets/hauntedSounds/2021-09-24_-_Jump_Scare_L_-_www.FesliyanStudios.com.mp3" id="6_5mlc1"]
 [ext_resource type="PackedScene" uid="uid://bnyg72u2ne6x0" path="res://scenes/monster.tscn" id="7_bwcvr"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yc1tk"]
-sky_top_color = Color(0.757292, 0.801019, 0.862069, 1)
-sky_horizon_color = Color(0.739323, 0.742505, 0.748767, 1)
-ground_horizon_color = Color(0.739323, 0.742505, 0.748767, 1)
-
-[sub_resource type="Sky" id="Sky_ev2lg"]
-sky_material = SubResource("ProceduralSkyMaterial_yc1tk")
-
-[sub_resource type="Environment" id="Environment_xfrog"]
-background_mode = 2
-sky = SubResource("Sky_ev2lg")
-tonemap_mode = 2
-glow_enabled = true
-fog_enabled = true
+[sub_resource type="Environment" id="Environment_7k2ni"]
 volumetric_fog_enabled = true
 
 [sub_resource type="FogMaterial" id="FogMaterial_s2qr4"]
+density = 0.2
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2j0bp"]
 
@@ -33,7 +21,7 @@ script = ExtResource("1_l1oj7")
 player_scene = ExtResource("2_3x03m")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_xfrog")
+environment = SubResource("Environment_7k2ni")
 
 [node name="FogVolume" type="FogVolume" parent="WorldEnvironment"]
 shape = 4

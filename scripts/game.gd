@@ -57,8 +57,8 @@ func _start_game():
 	
 	#players[random_number].haunted = true
 	var random_number = randi() % playerIds.size()
-	var player_id = playerIds[random_number]
-	rpc_id(player_id, "_load_haunted", player_id)
+	var player_client_id = playerIds[random_number]
+	rpc_id(player_client_id, "_load_haunted", player_client_id)
 
 #Anything that should happen to the haunted player when Loading
 
