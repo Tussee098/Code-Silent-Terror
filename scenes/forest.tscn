@@ -1,12 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://ccrcpcbdm5bin"]
+[gd_scene load_steps=5 format=3 uid="uid://ccrcpcbdm5bin"]
 
-[ext_resource type="PackedScene" uid="uid://8nyinpqo25hm" path="res://assets/forest/terrain.blend" id="1_13arn"]
+[ext_resource type="PackedScene" uid="uid://8nyinpqo25hm" path="res://assets/forest/terrain/terrain.blend" id="1_13arn"]
 [ext_resource type="PackedScene" uid="uid://djvjnsuh70bra" path="res://scenes/testing_player.tscn" id="2_a8fny"]
+[ext_resource type="PackedScene" uid="uid://ia4tas2n4ta5" path="res://assets/forest/tree01.blend" id="2_vip6m"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_vucnx"]
 
 [node name="Forest" type="Node3D"]
 
 [node name="terrain" parent="." instance=ExtResource("1_13arn")]
 transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+metadata/_edit_group_ = true
+
+[node name="Tree1" parent="terrain" instance=ExtResource("2_vip6m")]
+transform = Transform3D(0.0953541, 0, 0, 0, 0.0953541, 0, 0, 0, 0.0953541, 3.28565, 0.084575, 0.602075)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="terrain/Tree1"]
+transform = Transform3D(0.375, 0, 0, 0, 2.5, 0, 0, 0, 0.375, -0.000164032, 2.46273, 0)
+shape = SubResource("CylinderShape3D_vucnx")
 
 [node name="TestingPlayer" parent="." instance=ExtResource("2_a8fny")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21.2519, 0)

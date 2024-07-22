@@ -51,7 +51,7 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 		# Play idle animation
 	# Counteract root motion by resetting the model's position
-	print(move_and_slide())
+	move_and_slide()
 	
 
 
