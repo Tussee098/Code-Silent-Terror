@@ -1,5 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://cl3t54vp3loue"]
+[gd_scene format=3 uid="uid://cl3t54vp3loue"]
 
-[ext_resource type="PackedScene" path="res://assets/house/HouseScene.fbx" id="1_ti4ew"]
-
-[node name="HouseNeighbourHood" instance=ExtResource("1_ti4ew")]
+[node name="HouseNeighbourHood"]

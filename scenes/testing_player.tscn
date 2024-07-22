@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://djvjnsuh70bra"]
+
+[ext_resource type="Script" path="res://TestingPlayer.gd" id="1_ki6yy"]
+[ext_resource type="PackedScene" uid="uid://ddqm1uigf4mj1" path="res://assets/nathan/rp_nathan_animated_003_walking.fbx" id="2_hso45"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7814n"]
+margin = 0.15
+radius = 0.1
+height = 1.934
+
+[node name="TestingPlayer" type="CharacterBody3D"]
+floor_max_angle = 1.22173
+script = ExtResource("1_ki6yy")
+metadata/_edit_group_ = true
+
+[node name="playerModel" parent="." instance=ExtResource("2_hso45")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.910486, 0.0246791)
+shape = SubResource("CapsuleShape3D_7814n")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.73642, -0.207715)

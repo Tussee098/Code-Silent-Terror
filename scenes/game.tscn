@@ -32,6 +32,7 @@ _spawnable_scenes = PackedStringArray("res://scenes/player.tscn")
 spawn_path = NodePath("..")
 
 [node name="ConnectionUI" parent="." instance=ExtResource("5_16mme")]
+metadata/_edit_use_anchors_ = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.0236645, 0.99972, 0, -0.99972, 0.0236645, -0.130025, 11.9252, 0.0651941)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccrcpcbdm5bin"]
+
+[ext_resource type="PackedScene" uid="uid://8nyinpqo25hm" path="res://assets/forest/terrain.blend" id="1_13arn"]
+[ext_resource type="PackedScene" uid="uid://djvjnsuh70bra" path="res://scenes/testing_player.tscn" id="2_a8fny"]
+
+[node name="Forest" type="Node3D"]
+
+[node name="terrain" parent="." instance=ExtResource("1_13arn")]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+
+[node name="TestingPlayer" parent="." instance=ExtResource("2_a8fny")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21.2519, 0)
+floor_constant_speed = true
