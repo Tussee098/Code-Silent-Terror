@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmvnne145hqtl"
-path.s3tc="res://.godot/imported/corteccia scura.jpg-59e840779d28eb2e146e24301b53159b.s3tc.ctex"
+uid="uid://bsdxbk0bo4guf"
+path.s3tc="res://.godot/imported/foglia verde scuro.jpg-3466710604d71084eb31878507597f92.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/forest/textures/corteccia scura.jpg"
-dest_files=["res://.godot/imported/corteccia scura.jpg-59e840779d28eb2e146e24301b53159b.s3tc.ctex"]
+source_file="res://assets/forest/trees/textures/foglia verde scuro.jpg"
+dest_files=["res://.godot/imported/foglia verde scuro.jpg-3466710604d71084eb31878507597f92.s3tc.ctex"]
 
 [params]
 
