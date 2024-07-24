@@ -3,8 +3,12 @@ extends Node3D
 var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
 
+var hauntedParanoia = 100
 var haunted = false
+
 var playerIds = []
+
+
 
 func _host_button_pressed():
 	_toggle_UI(false)
@@ -49,6 +53,7 @@ func _toggle_UI(value : bool):
 
 func _on_start_game_button_pressed():
 	$StartGameButton.visible = !visible
+	
 	_start_game()
 
 
@@ -64,6 +69,7 @@ func _start_game():
 
 @rpc("call_local")
 func _load_haunted(player_id):
+	$MonsterTimer.start()
 	print("Loading Haunted...")
 	$DirectionalLight3D.visible = !visible
 	$MusicPlayer.play()
@@ -89,3 +95,15 @@ func _on_entrance_trigger_body_entered(body):
 
 func _on_jump_scare_player_finished():
 	$MusicPlayer.play()
+
+
+func _on_monster_timer_timeout():
+	print("Timeer")
+	var hauntingValue = randi_range(25, 100)
+	if hauntedParanoia > hauntingValue:
+		haunt()
+	$MonsterTimer.wait_time = randi_range(10, 25)
+
+
+func haunt():
+	print("haunted")
