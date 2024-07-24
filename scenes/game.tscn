@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://oo1bxsvf5ttb"]
+[gd_scene load_steps=12 format=3 uid="uid://oo1bxsvf5ttb"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_l1oj7"]
 [ext_resource type="PackedScene" uid="uid://c4rrqf00kbr7s" path="res://scenes/player.tscn" id="2_3x03m"]
@@ -7,6 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://byu7w4cnepqxw" path="res://assets/hauntedSounds/2021-09-24_-_Jump_Scare_L_-_www.FesliyanStudios.com.mp3" id="6_5mlc1"]
 [ext_resource type="PackedScene" uid="uid://bnyg72u2ne6x0" path="res://scenes/monster.tscn" id="7_bwcvr"]
 [ext_resource type="PackedScene" uid="uid://blkdsab26bekf" path="res://assets/house/houseCollision.glb" id="7_i0q6w"]
+[ext_resource type="PackedScene" uid="uid://ijjo253bdexu" path="res://scenes/scaryface.tscn" id="7_indc2"]
 
 [sub_resource type="Environment" id="Environment_7k2ni"]
 volumetric_fog_enabled = true
@@ -68,6 +69,9 @@ shape = SubResource("CapsuleShape3D_2j0bp")
 [node name="Monster" parent="." instance=ExtResource("7_bwcvr")]
 transform = Transform3D(-0.0146253, 0, -0.999893, 0, 1, 0, 0.999893, 0, -0.0146253, 2.61212, 1.78968, -32.7124)
 visible = true
+
+[node name="scaryface" parent="Monster" instance=ExtResource("7_indc2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5465, 0.191512, 18.7542)
 
 [node name="HouseNeighbourHood" parent="." instance=ExtResource("7_i0q6w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29.4203)
