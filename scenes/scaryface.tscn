@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://ijjo253bdexu"]
+
+[ext_resource type="Texture2D" uid="uid://jejtf5pklgi4" path="res://assets/monsters/scaryfaces/halfbody.jpg" id="1_tmhdc"]
+[ext_resource type="Texture2D" uid="uid://b2hag1xjo3akq" path="res://assets/monsters/scaryfaces/Phase_45_IMC.webp" id="2_pqqho"]
+[ext_resource type="Texture2D" uid="uid://cecxtdg1jp5n8" path="res://assets/monsters/scaryfaces/eyesandSmile.jpg" id="3_4a6w0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_abjgg"]
+
+[node name="scaryface" type="CharacterBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_abjgg")
+
+[node name="face1" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000189781, -0.0137324, 0.00183487)
+texture = ExtResource("1_tmhdc")
+
+[node name="face2" type="Sprite3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.33884, -0.0137324, 0.00183487)
+texture = ExtResource("2_pqqho")
+
+[node name="face3" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.02636, -0.00471014, -0.00192308)
+texture = ExtResource("3_4a6w0")

@@ -17,7 +17,7 @@ func _host_button_pressed():
 	$StartGameButton.visible = !$StartGameButton.visible
 	
 
-# MÅste testas
+# MÅste testas  ?
 func _join_button_pressed(ip_adress):
 	_toggle_UI(false)
 	peer.close() # idk
