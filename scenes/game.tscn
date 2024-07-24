@@ -67,10 +67,9 @@ shape = SubResource("CapsuleShape3D_2j0bp")
 
 [node name="Monster" parent="." instance=ExtResource("7_bwcvr")]
 transform = Transform3D(-0.0146253, 0, -0.999893, 0, 1, 0, 0.999893, 0, -0.0146253, 2.61212, 1.78968, -32.7124)
-visible = true
 
 [node name="HouseNeighbourHood" parent="." instance=ExtResource("7_i0q6w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29.4203)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.59602, -5.99184, -27.7183)
 
 [connection signal="pressed" from="StartGameButton" to="." method="_on_start_game_button_pressed"]
 [connection signal="body_entered" from="EntranceTrigger" to="." method="_on_entrance_trigger_body_entered"]
