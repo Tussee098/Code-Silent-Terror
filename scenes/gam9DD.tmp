@@ -66,16 +66,16 @@ transform = Transform3D(0.98965, 0, 0, 0, 0.98965, 0, 0, 0, 0.98965, 0.0974026, 
 shape = SubResource("CapsuleShape3D_2j0bp")
 
 [node name="Monster" parent="." instance=ExtResource("7_bwcvr")]
-transform = Transform3D(-0.0146253, 0, -0.999893, 0, 1, 0, 0.999893, 0, -0.0146253, -15.5492, -5.06678, -15.1821)
+transform = Transform3D(-0.0146253, 0, -0.999893, 0, 1, 0, 0.999893, 0, -0.0146253, -15.0027, -5.06678, -11.8933)
+
+[node name="scaryface" parent="Monster" instance=ExtResource("7_indc2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.17412, 0.191512, 1.69149)
 
 [node name="HouseNeighbourHood" parent="." instance=ExtResource("7_i0q6w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.59602, -5.99184, -27.7183)
 
 [node name="MonsterTimer" type="Timer" parent="."]
 wait_time = 10.0
-
-[node name="scaryface" parent="." instance=ExtResource("7_indc2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.22061, 0)
 
 [connection signal="pressed" from="StartGameButton" to="." method="_on_start_game_button_pressed"]
 [connection signal="body_entered" from="EntranceTrigger" to="." method="_on_entrance_trigger_body_entered"]

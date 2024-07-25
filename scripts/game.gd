@@ -5,6 +5,7 @@ var peer = ENetMultiplayerPeer.new()
 
 var hauntedParanoia = 100
 var haunted = false
+var haunted_player
 
 var playerIds = []
 
@@ -74,7 +75,7 @@ func _load_haunted(player_id):
 	$DirectionalLight3D.visible = !visible
 	$MusicPlayer.play()
 	var children = get_children()
-	var haunted_player
+	haunted_player
 	for child in children:
 		if child.name == str(player_id):
 			haunted_player = child
@@ -106,4 +107,11 @@ func _on_monster_timer_timeout():
 
 
 func haunt():
+	var faces = find_child("scaryface").get_children()
+	var randomFace = faces[randi_range(0, faces.size() - 1)]
+	randomFace.position = haunted_player.get_global_position() + Vector3(10,6,10).rotated(Vector3(0,1,0), randf_range(0, 2*PI))
+	print(randomFace.position)
+	print(haunted_player.get_global_position())
+	randomFace.rotation = randomFace.position.angle_to(haunted_player.get_global_position())
+	randomFace.visible = true
 	print("haunted")
