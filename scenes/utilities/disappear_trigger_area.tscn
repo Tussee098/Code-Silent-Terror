@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://8jmk3hw2hviy"]
+
+[ext_resource type="Script" path="res://scenes/utilities/disappear_trigger_area.gd" id="1_0po32"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_bwf7n"]
+
+[node name="DisappearTriggerArea" type="Area3D"]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+collision_layer = 512
+collision_mask = 512
+script = ExtResource("1_0po32")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+shape = SubResource("SphereShape3D_bwf7n")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

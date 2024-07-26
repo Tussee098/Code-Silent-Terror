@@ -1,20 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://ijjo253bdexu"]
 
-[ext_resource type="Texture2D" uid="uid://jejtf5pklgi4" path="res://assets/monsters/scaryfaces/halfbody.jpg" id="1_tmhdc"]
-[ext_resource type="Texture2D" uid="uid://b2hag1xjo3akq" path="res://assets/monsters/scaryfaces/Phase_45_IMC.webp" id="2_pqqho"]
+[ext_resource type="Script" path="res://scenes/monsters/scaryface.gd" id="1_syeql"]
 [ext_resource type="Texture2D" uid="uid://cecxtdg1jp5n8" path="res://assets/monsters/scaryfaces/eyesandSmile.jpg" id="3_4a6w0"]
+[ext_resource type="PackedScene" uid="uid://8jmk3hw2hviy" path="res://scenes/utilities/disappear_trigger_area.tscn" id="3_e7fbu"]
 
-[node name="scaryface" type="Node3D"]
-
-[node name="face1" type="Sprite3D" parent="."]
-visible = false
-texture = ExtResource("1_tmhdc")
-
-[node name="face2" type="Sprite3D" parent="."]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
-visible = false
-texture = ExtResource("2_pqqho")
-
-[node name="face3" type="Sprite3D" parent="."]
+[node name="scaryface" type="Sprite3D"]
 visible = false
 texture = ExtResource("3_4a6w0")
+script = ExtResource("1_syeql")
+metadata/_edit_group_ = true
+
+[node name="ShowFaceTimer" type="Timer" parent="."]
+
+[node name="DisappearTriggerArea" parent="." instance=ExtResource("3_e7fbu")]
+
+[connection signal="timeout" from="ShowFaceTimer" to="." method="_on_show_face_timer_timeout"]

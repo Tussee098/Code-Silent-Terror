@@ -3,7 +3,7 @@ extends Node3D
 var peer = ENetMultiplayerPeer.new()
 @export var player_scene : PackedScene
 
-var hauntedParanoia = 100
+var hauntedParanoiaLevel = 100
 var haunted = false
 var haunted_player
 
@@ -61,9 +61,7 @@ func _on_start_game_button_pressed():
 func _start_game():
 	randomize()
 	
-	#players[random_number].haunted = true
-	var random_number = randi() % playerIds.size()
-	var player_client_id = playerIds[random_number]
+	var player_client_id = playerIds.pick_random()
 	rpc_id(player_client_id, "_load_haunted", player_client_id)
 
 #Anything that should happen to the haunted player when Loading
@@ -101,17 +99,15 @@ func _on_jump_scare_player_finished():
 func _on_monster_timer_timeout():
 	print("Timeer")
 	var hauntingValue = randi_range(25, 100)
-	if hauntedParanoia > hauntingValue:
+	if hauntedParanoiaLevel >= hauntingValue:
 		haunt()
 	$MonsterTimer.wait_time = randi_range(10, 25)
 
 
 func haunt():
-	var faces = find_child("scaryface").get_children()
-	var randomFace = faces[randi_range(0, faces.size() - 1)]
-	randomFace.position = haunted_player.get_global_position() + Vector3(10,6,10).rotated(Vector3(0,1,0), randf_range(0, 2*PI))
-	print(randomFace.position)
-	print(haunted_player.get_global_position())
-	randomFace.rotation = randomFace.position.angle_to(haunted_player.get_global_position())
-	randomFace.visible = true
-	print("haunted")
+	var scaryface = find_child("scaryface")
+	scaryface.position = haunted_player.get_global_position() + Vector3(20, 6, 20).rotated(Vector3(0,1,0), randf_range(0, 2*PI))
+	scaryface.haunting_picture(randi_range(5, 10))
+	
+
+

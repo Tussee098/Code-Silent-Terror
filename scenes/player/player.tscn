@@ -25,7 +25,7 @@ properties/4/path = NodePath(".:is_idle")
 properties/4/spawn = true
 properties/4/replication_mode = 1
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.60038, 0)
 slide_on_ceiling = false
 floor_max_angle = 1.309
