@@ -108,6 +108,7 @@ func haunt():
 	var scaryface = find_child("scaryface")
 	scaryface.position = haunted_player.get_global_position() + Vector3(20, 6, 20).rotated(Vector3(0,1,0), randf_range(0, 2*PI))
 	scaryface.haunting_picture(randi_range(5, 10))
-	
+	var audioPlayer = scaryface.find_child("AudioStreamPlayer3D")
+	audioPlayer.play()
 
 

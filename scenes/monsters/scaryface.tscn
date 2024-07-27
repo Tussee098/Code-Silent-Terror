@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://ijjo253bdexu"]
+[gd_scene load_steps=5 format=3 uid="uid://ijjo253bdexu"]
 
 [ext_resource type="Script" path="res://scenes/monsters/scaryface.gd" id="1_syeql"]
 [ext_resource type="Texture2D" uid="uid://cecxtdg1jp5n8" path="res://assets/monsters/scaryfaces/eyesandSmile.jpg" id="3_4a6w0"]
 [ext_resource type="PackedScene" uid="uid://8jmk3hw2hviy" path="res://scenes/utilities/disappear_trigger_area.tscn" id="3_e7fbu"]
+[ext_resource type="AudioStream" uid="uid://bcppq7hv7irk6" path="res://assets/hauntedSounds/smallEncounter_1.wav" id="4_rax2c"]
 
 [node name="scaryface" type="Sprite3D"]
 visible = false
@@ -13,5 +14,9 @@ metadata/_edit_group_ = true
 [node name="ShowFaceTimer" type="Timer" parent="."]
 
 [node name="DisappearTriggerArea" parent="." instance=ExtResource("3_e7fbu")]
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("4_rax2c")
+volume_db = -10.0
 
 [connection signal="timeout" from="ShowFaceTimer" to="." method="_on_show_face_timer_timeout"]
